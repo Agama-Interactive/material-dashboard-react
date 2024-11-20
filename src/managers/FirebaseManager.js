@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import { getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth";
 import {
   getFirestore,
   collection,
@@ -19,6 +19,23 @@ const databaseId = "(default)";
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const firestore = getFirestore(app, databaseId);
+
+export const isAuthenticated = () => {
+  return auth.currentUser !== null;
+};
+
+export const signInUser = async (email, password) => {
+  try {
+    await signInWithEmailAndPassword(auth, email, password);
+  } catch (error) {
+    return false;
+  }
+  return true;
+};
+
+export const signOutUser = () => {
+  signOut(auth);
+};
 
 export const getUserData = async (userId) => {
   const docRef = doc(firestore, "users", userId);
@@ -83,11 +100,6 @@ export const getExerciseSessions = async (userId) => {
 };
 
 export const getAllUsers = async () => {
-  // TODO Remove this code later
-  if (!auth.currentUser) {
-    await signInWithEmailAndPassword(auth, "jay@agama.io", "password");
-  }
-
   const q = query(collection(firestore, "users"), orderBy("name"));
   const querySnapshot = await getDocs(q);
   const users = querySnapshot.docs.map((doc) => {

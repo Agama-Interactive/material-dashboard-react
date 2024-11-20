@@ -81,7 +81,7 @@ export default function data(patients) {
             onClick={() => onDownloadClick(patient)}
             component="a"
             href="#"
-            variant="caption"
+            variant="button"
             color="text"
             fontWeight="medium"
           >

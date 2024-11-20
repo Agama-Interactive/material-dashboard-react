@@ -19,7 +19,7 @@ import Card from "@mui/material/Card";
 
 // Material Dashboard 2 React components
 import MDBox from "components/MDBox";
-import MDTypography from "components/MDTypography";
+import MDButton from "components/MDButton";
 
 // Material Dashboard 2 React example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
@@ -27,34 +27,46 @@ import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
 import DataTable from "examples/Tables/DataTable";
 
-import { getAllUsers } from "../../managers/FirebaseManager";
+import { getAllUsers, isAuthenticated, signOutUser } from "../../managers/FirebaseManager";
 
 // Data
 import patientsTableData from "layouts/tables/data/patientsTableData";
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Tables() {
+  const navigate = useNavigate();
   const [users, setUsers] = useState([]);
+
   useEffect(() => {
     const getUsers = async () => {
+      // if (!isAuthenticated()) {
+      //   navigate("/authentication/sign-in");
+      //   return;
+      // }
       const users = await getAllUsers();
       setUsers(users);
     };
     getUsers();
   }, []);
 
-  const { columns, rows } = patientsTableData(users);
+  const onSignOutClick = () => {
+    signOutUser();
+    navigate("/authentication/sign-in");
+  };
+
+  if (!isAuthenticated()) return null;
 
   return (
     <DashboardLayout>
-      <DashboardNavbar />
+      {/* <DashboardNavbar /> */}
       <MDBox pt={6} pb={3}>
         <Grid container spacing={6}>
           <Grid item xs={12}>
             <Card>
               <MDBox pt={1}>
                 <DataTable
-                  table={{ columns, rows }}
+                  table={patientsTableData(users)}
                   isSorted={false}
                   entriesPerPage={false}
                   showTotalEntries={false}
@@ -65,6 +77,7 @@ function Tables() {
           </Grid>
         </Grid>
       </MDBox>
+      <MDButton onClick={onSignOutClick}>Cerrar Sesión</MDButton>
       {/* <Footer /> */}
     </DashboardLayout>
   );
