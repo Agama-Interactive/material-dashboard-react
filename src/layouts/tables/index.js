@@ -40,12 +40,12 @@ function Tables() {
 
   useEffect(() => {
     const getUsers = async () => {
-      // if (!isAuthenticated()) {
-      //   navigate("/authentication/sign-in");
-      //   return;
-      // }
-      const users = await getAllUsers();
-      setUsers(users);
+      try {
+        const users = await getAllUsers();
+        setUsers(users);
+      } catch (error) {
+        navigate("/authentication/sign-in");
+      }
     };
     getUsers();
   }, []);
