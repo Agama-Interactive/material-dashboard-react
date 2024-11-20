@@ -1,0 +1,3602 @@
+{
+  "1": {
+    "name": "Remo sentado",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "boy"
+  },
+  "2": {
+    "name": "Remo inclinado",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "boy"
+  },
+  "3": {
+    "name": "Remo unilateral",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "boy"
+  },
+  "4": {
+    "name": "Remo al cuello",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "boy"
+  },
+  "5": {
+    "name": "Empuje vertical militar sentado",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "boy"
+  },
+  "6": {
+    "name": "Zancada y empuje vertical",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "boy"
+  },
+  "7": {
+    "name": "Tracción vertical detrás de la cabeza",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "boy"
+  },
+  "8": {
+    "name": "Flexión frontal de hombros",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "boy"
+  },
+  "9": {
+    "name": "Abducción vertical de hombros",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "boy"
+  },
+  "10": {
+    "name": "Flexión de codo sentado",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "boy"
+  },
+  "11": {
+    "name": "Flexión de codo de pie",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "girl"
+  },
+  "12": {
+    "name": "Zancada y flexión de codo",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "girl"
+  },
+  "13": {
+    "name": "Arquero",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "girl"
+  },
+  "14": {
+    "name": "Aducción horizontal",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "girl"
+  },
+  "15": {
+    "name": "Empuje horizontal acostado",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "girl"
+  },
+  "16": {
+    "name": "Abducción horizontal sentado",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "girl"
+  },
+  "17": {
+    "name": "Abducción horizontal 45º de pie",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "girl"
+  },
+  "18": {
+    "name": "Abducción horizontal de pie",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "girl"
+  },
+  "19": {
+    "name": "Empuje francés acostado",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "girl"
+  },
+  "20": {
+    "name": "Extensión de codo de pie unilateral",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "girl"
+  },
+  "21": {
+    "name": "Empuje de tríceps lateral",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "boy"
+  },
+  "22": {
+    "name": "Rotación externa de hombros",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "boy"
+  },
+  "23": {
+    "name": "Remo en posición de peso muerto",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "24": {
+    "name": "Lanzamiento de pecho",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "25": {
+    "name": "Flexión de codo",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "26": {
+    "name": "Flexión de hombro de pie",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "27": {
+    "name": "Flexión de hombro y empuje horizontal",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "28": {
+    "name": "Empuje vertical militar de pie",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "29": {
+    "name": "Paso lateral",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "30": {
+    "name": "Aplasta cráneos",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "31": {
+    "name": "Extensión de tríceps",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "32": {
+    "name": "Aducción horizontal con cruce",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "33": {
+    "name": "Extensión lumbar",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "34": {
+    "name": "Círculos sobre cabeza",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "35": {
+    "name": "Empuje horizontal unilateral",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "36": {
+    "name": "Molino carga arriba",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "37": {
+    "name": "Molino carga abajo",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "38": {
+    "name": "Flexión de codo cruzado",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "39": {
+    "name": "Flexión de codo unilateral",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "40": {
+    "name": "Remo unilateral",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "41": {
+    "name": "Remo a una pierna unilateral",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "42": {
+    "name": "Sentadilla",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "boy"
+  },
+  "43": {
+    "name": "Zancada",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "boy"
+  },
+  "44": {
+    "name": "Sentadilla y abducción horizontal",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "boy"
+  },
+  "45": {
+    "name": "Peso muerto",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "boy"
+  },
+  "46": {
+    "name": "Prensa",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "boy"
+  },
+  "47": {
+    "name": "Patada con extensión de glúteo en cuadrupedia",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "band",
+    "material": "band",
+    "model": "boy"
+  },
+  "48": {
+    "name": "Peso muerto en 3 puntos",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "49": {
+    "name": "Salto con balón",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "50": {
+    "name": "Corredor con balón",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "51": {
+    "name": "Puentes de glúteos",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "52": {
+    "name": "Sentadilla en círculo",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "53": {
+    "name": "Peso muerto",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "54": {
+    "name": "Peso muerto rumano",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "55": {
+    "name": "Peso muerto unilateral",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "56": {
+    "name": "Rodillas altas corriendo",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "57": {
+    "name": "Saltos de tijeras",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "58": {
+    "name": "Saltos en zancada",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "59": {
+    "name": "Rodilla-balón al cielo",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "60": {
+    "name": "Giro en estocada",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "61": {
+    "name": "Zancada con balón sobre cabeza",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "62": {
+    "name": "Sentadilla de lado a lado",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "63": {
+    "name": "Peso muerto unilateral con brazos estirados",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "64": {
+    "name": "Skater",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "65": {
+    "name": "Pases en sentadilla",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "66": {
+    "name": "Guerrero III",
+    "hasReps": "FALSE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "67": {
+    "name": "Rotación apoyado en la pared",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "68": {
+    "name": "Balanceo con pesa rusa",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "69": {
+    "name": "Balanceo lateral con pesa rusa",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "70": {
+    "name": "Balanceo unilateral alternado",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "71": {
+    "name": "Sentadilla y empuje",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "72": {
+    "name": "El propulsor",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "73": {
+    "name": "Salto sumo",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "74": {
+    "name": "Sentadilla adelante y atrás",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "75": {
+    "name": "Resistir la rotación",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "76": {
+    "name": "Bicho muerto pasando balón",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "77": {
+    "name": "Planchas con piernas alternas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "78": {
+    "name": "Plancha pasando balón",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "79": {
+    "name": "Barco",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "80": {
+    "name": "Abdominales con elevación",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "81": {
+    "name": "La noria",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "82": {
+    "name": "Pase de manos a pies",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "83": {
+    "name": "Giro de Albañil",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "84": {
+    "name": "Ruleta rusa",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "85": {
+    "name": "Aducción horizontal con una sola pierna",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "86": {
+    "name": "Asientos",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "87": {
+    "name": "Toque de pies",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "88": {
+    "name": "Sentarse en V",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "89": {
+    "name": "Abducción oblicua unilateral",
+    "hasReps": "FALSE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "90": {
+    "name": "Contracción abdominal de albañil",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "boy"
+  },
+  "91": {
+    "name": "El tirador",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "92": {
+    "name": "Resistencia de rotación",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "ball",
+    "material": "ball",
+    "model": "girl"
+  },
+  "93": {
+    "name": "Flexión en pared",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": 270,
+    "icon": "upper",
+    "material": "",
+    "model": "girl"
+  },
+  "94": {
+    "name": "Flexión con apoyo de rodillas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "girl"
+  },
+  "95": {
+    "name": "Flexión",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "girl"
+  },
+  "96": {
+    "name": "Flexión inclinada",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "girl"
+  },
+  "97": {
+    "name": "Flexión declinada",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "girl"
+  },
+  "98": {
+    "name": "Flexión en pica",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "girl"
+  },
+  "99": {
+    "name": "Flexión y plancha lateral",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "girl"
+  },
+  "100": {
+    "name": "Flexión indú",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "girl"
+  },
+  "101": {
+    "name": "Spider-man",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "boy"
+  },
+  "102": {
+    "name": "Flexión con palmada",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "boy"
+  },
+  "103": {
+    "name": "Flexión de escorpión",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "boy"
+  },
+  "104": {
+    "name": "Flexiones con extensión de cadera en banco",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "boy"
+  },
+  "105": {
+    "name": "Flexiones con extensión de cadera",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "boy"
+  },
+  "106": {
+    "name": "Fondo de tríceps con piernas a 90º",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "boy"
+  },
+  "107": {
+    "name": "Fondo de tríceps con piernas extendidas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "boy"
+  },
+  "108": {
+    "name": "Fondo de tríceps con una pierna elevada",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "boy"
+  },
+  "109": {
+    "name": "Caminata de cangrejo",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "boy"
+  },
+  "110": {
+    "name": "Caminata de oso",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "boy"
+  },
+  "111": {
+    "name": "De pie hacia la plancha",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "girl"
+  },
+  "112": {
+    "name": "El dardo",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "girl"
+  },
+  "113": {
+    "name": "El dardo isométrico",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "girl"
+  },
+  "114": {
+    "name": "Burpee básico",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "girl"
+  },
+  "115": {
+    "name": "Burpee nivel medio",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "girl"
+  },
+  "116": {
+    "name": "Burpee con extensión miembro inferior sin flexión",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "girl"
+  },
+  "117": {
+    "name": "Burpee con rodillas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "girl"
+  },
+  "118": {
+    "name": "Burpee completo",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "girl"
+  },
+  "119": {
+    "name": "Burpee en tijera",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "girl"
+  },
+  "120": {
+    "name": "Plancha lateral con rotación del tronco",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "upper",
+    "material": "",
+    "model": "girl"
+  },
+  "121": {
+    "name": "Flexión con apoyo de rodillas tocando la mano",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "122": {
+    "name": "Empuje y palmada",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "123": {
+    "name": "Empuje inclinado y abdominales",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "124": {
+    "name": "Empuje excéntrico sobre empeine y oblicuos hacia tobillos",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "125": {
+    "name": "La carretilla",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "126": {
+    "name": "Empuje horizontal con piernas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "127": {
+    "name": "Tracción australiana",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "128": {
+    "name": "Remo y plancha estática",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "129": {
+    "name": "Fondo de tríceps en el suelo y fondo de tríceps en rodillas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "130": {
+    "name": "Cuadrupedia y tocar extremo diagonal",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "131": {
+    "name": "Burpees en pareja",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "132": {
+    "name": "Sentadilla apoyados en silla",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "133": {
+    "name": "Media sentadilla",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "134": {
+    "name": "Sentadilla sumo",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "135": {
+    "name": "Sentadilla profunda",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "136": {
+    "name": "Media sentadilla y elevación de gemelos",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "137": {
+    "name": "Salto de sentadilla",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "138": {
+    "name": "Media sentadilla unipodal",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "139": {
+    "name": "Media sentadilla con piernas cruzadas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "140": {
+    "name": "Media sentadilla unipodal con banco",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "141": {
+    "name": "Sentadilla con rebote",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "142": {
+    "name": "Sentadilla búlgara con banco",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "143": {
+    "name": "Sentadilla isométrica",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "144": {
+    "name": "Media sentadilla isométrica con una pierna",
+    "hasReps": "FALSE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "145": {
+    "name": "Zancada hacia atrás",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "146": {
+    "name": "Zancada con elevación de brazos",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "147": {
+    "name": "Zancada con salto",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "148": {
+    "name": "Zancada lateral",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "149": {
+    "name": "Zancada cruzada",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "150": {
+    "name": "Zancada lateral y flexión de pierna",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "151": {
+    "name": "Elevación de talones",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "152": {
+    "name": "Elevación de talón unilateral",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "153": {
+    "name": "Salto en punta",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "154": {
+    "name": "Salto en punta unilateral",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "155": {
+    "name": "Flexión plantar sobre la pared",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "156": {
+    "name": "Salto lateral",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "157": {
+    "name": "Salto de Ski",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "158": {
+    "name": "Salto de rana",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "159": {
+    "name": "Salto vertical",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "160": {
+    "name": "Salto horizontal a pies juntos",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "161": {
+    "name": "Cuadrupedia inversa isométrica",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "162": {
+    "name": "Cuadrupedia inversa",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "163": {
+    "name": "Cuadrupedia inversa con triple extensión isométrica",
+    "hasReps": "FALSE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "164": {
+    "name": "Cuadrupedia inversa con triple extensión isotónica",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "165": {
+    "name": "Elevación de cadera con apoyo isométrica",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "166": {
+    "name": "Elevación de cadera con apoyo isotónica",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "167": {
+    "name": "Cuadrupedia inversa pliométrica",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "168": {
+    "name": "Cuadrupedia inversa asimétrica con flexo-extensión de cadera",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "169": {
+    "name": "Puente de glúteos unilateral en banco",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "170": {
+    "name": "Puente de glúteos unilateral en banco isométrico",
+    "hasReps": "FALSE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "171": {
+    "name": "Puente de glúteos isométrico",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "172": {
+    "name": "Puente de glúteos",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "173": {
+    "name": "Puente de glúteo unilateral isométrico",
+    "hasReps": "FALSE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "174": {
+    "name": "Puente de glúteo unilateral",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "175": {
+    "name": "Extensión de cadera con flexión de rodilla desde plancha",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "176": {
+    "name": "Triple extensión miembro inferior desde plancha",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "177": {
+    "name": "La sirena",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "178": {
+    "name": "Abducción con pierna flexionada en cuadrupedia",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "179": {
+    "name": "Abducción de una pierna en cuadrupedia",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "180": {
+    "name": "Patada con extensión de glúteo en cuadrupedia",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "girl"
+  },
+  "181": {
+    "name": "Extensión de cadera con rodilla 90º en cuadrupedia",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "182": {
+    "name": "Excéntrico nórdico invertido",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "183": {
+    "name": "Mini-saltos unilaterales",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "184": {
+    "name": "Flexión de cadera cruzada hacia codo",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "185": {
+    "name": "Flexión de rodilla en decúbito prono",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "186": {
+    "name": "Posición de silla",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "187": {
+    "name": "Frenada trasera con aceleración delantera",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "188": {
+    "name": "Apertura lateral cruzada",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "189": {
+    "name": "Cierre lateral con salto",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "lower",
+    "material": "",
+    "model": "boy"
+  },
+  "190": {
+    "name": "Sentadilla",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "191": {
+    "name": "Sentadilla isométrica",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "192": {
+    "name": "Salto lateral pies juntos alterno en parejas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "193": {
+    "name": "Sentadilla con elevación de rodilla",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "194": {
+    "name": "Sentadilla y rotación de tronco",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "195": {
+    "name": "Sentadilla y patada de capoeira",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "196": {
+    "name": "Sentadilla isométrica y escalador",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "197": {
+    "name": "Sentadilla isométrica y escalador cruzado",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "198": {
+    "name": "Sentadilla isométrica y plancha alternado",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "199": {
+    "name": "Media sentadilla y estocada",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "200": {
+    "name": "Sentadilla isométrica y skipping",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "201": {
+    "name": "Sentadilla isométrica en pared y fondo de tríceps",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "202": {
+    "name": "Sentadilla unilateral",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "203": {
+    "name": "Zancada trasera",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "204": {
+    "name": "Sentadilla lateral y palmada",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "205": {
+    "name": "Zancada trasera con salto",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "206": {
+    "name": "Zancada atrás con rodilla al pecho",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "207": {
+    "name": "Salto frontal y plancha con rodillas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "208": {
+    "name": "Salto frontal con gateo y posición V",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "209": {
+    "name": "Rodear más gateo y posición V",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "210": {
+    "name": "Salto lateral y plancha con rodillas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "211": {
+    "name": "Salto lateral y flexión más plancha con rodillas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "212": {
+    "name": "Puente de glúteos alterno y toque plantar",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "213": {
+    "name": "Puente de glúteos isotónico e isométrico",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "214": {
+    "name": "Plancha inversa paralela e inclinada",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "215": {
+    "name": "Salto lateral y elevación isométrica de piernas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "216": {
+    "name": "Salto frontal y elevación isométrica de piernas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "217": {
+    "name": "Excéntrico nórdico inverso más toque de palma",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "218": {
+    "name": "El puente lastrado",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "219": {
+    "name": "Sentadilla lastrada",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "220": {
+    "name": "Flexión de cadera excéntrica y sentadilla",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "221": {
+    "name": "Bicicleta sincronizada",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "222": {
+    "name": "Bicicleta con flexión oblicua sincronizada",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "223": {
+    "name": "Skipping lateral y plancha con rodillas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "224": {
+    "name": "Salto ruso y sentadilla",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "225": {
+    "name": "Sentadilla isométrica y toque de hombros",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "226": {
+    "name": "Salto y toque de palmas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "227": {
+    "name": "Zancada con rotación de tronco",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "228": {
+    "name": "Nórdico excéntrico",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "229": {
+    "name": "Sentadilla isométrica y puente de glúteos declinado",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "230": {
+    "name": "Contracción abdominal",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "231": {
+    "name": "Contracción abdominal 90º sobre banco",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "232": {
+    "name": "Plancha sobre banco con unipodal isométrico",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "233": {
+    "name": "The hundred - 100",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "234": {
+    "name": "Rodar atrás y levantarse",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "235": {
+    "name": "Contracción abdominal de rana",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "236": {
+    "name": "Contracción abdominal 90º con extensión de brazos",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "237": {
+    "name": "Contracción abdominal 90º con brazos en hombros",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "238": {
+    "name": "Contracción abdominal hasta sentarse",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "239": {
+    "name": "Contracción abdominal y flexión de cadera con brazos",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "240": {
+    "name": "Contracción abdominal de carrera sentado",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "241": {
+    "name": "Contracción abdominal de carrera tumbado",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "242": {
+    "name": "Contracción abdominal hasta posición V",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "243": {
+    "name": "Contracción abdominal y flexión cadera",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "244": {
+    "name": "Contracción abdominal y flexión cadera isométrica",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "245": {
+    "name": "Elevación de cadera con empuje",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "246": {
+    "name": "Contracción abdominal tocando pie elevado al cielo",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "247": {
+    "name": "Contracción abdominal tocando pie elevado con apoyo",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "248": {
+    "name": "Contracción abdominal tocando pie elevado al cielo cruzado",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "249": {
+    "name": "Contracción abdominal con pies elevados al cielo",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "250": {
+    "name": "Contracción abdominal oblicua cruzado",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "251": {
+    "name": "Contracción abdominal oblicua en 90º",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "252": {
+    "name": "Contracción abdominal oblicua en 90º cruzado",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "253": {
+    "name": "Contracción abdominal de carrera",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "254": {
+    "name": "Rotación de tronco tumbado en estrella",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "255": {
+    "name": "Giro ruso",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "256": {
+    "name": "Barco abducción-aducción",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "257": {
+    "name": "Contracción de oblicuo lateral",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "258": {
+    "name": "Contracción de oblicuos con piernas extendidas",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "259": {
+    "name": "Plancha lateral con rodillas dinámicas",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "260": {
+    "name": "Plancha lateral con rodillas isométrica",
+    "hasReps": "FALSE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "261": {
+    "name": "Plancha lateral isométrica",
+    "hasReps": "FALSE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "262": {
+    "name": "Plancha lateral dinámica",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "263": {
+    "name": "Plancha lateral isométrica con flexión de cadera",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "264": {
+    "name": "Plancha lateral isométrica con abducción de cadera",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "265": {
+    "name": "Plancha lateral isométrica con abducción de cadera isométrica",
+    "hasReps": "FALSE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "266": {
+    "name": "Plancha frontal con apoyo de rodillas isométrica",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "267": {
+    "name": "Plancha frontal isométrica",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "268": {
+    "name": "Plancha frontal alta isométrica",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "269": {
+    "name": "Plancha frontal con flexión de hombros",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "270": {
+    "name": "Plancha frontal con flexión de hombros isométrico",
+    "hasReps": "FALSE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "271": {
+    "name": "Plancha frontal alta y baja",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "272": {
+    "name": "Plancha frontal con abducciones de cadera",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "273": {
+    "name": "Plancha frontal con patada lateral",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "274": {
+    "name": "Plancha alta con apoyo de rodillas y extensión de tríceps",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "275": {
+    "name": "Plancha alta con salto de rodilla al pecho",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "276": {
+    "name": "Plancha alta con salto de rodilla diagonal",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "277": {
+    "name": "Plancha en V dinámica",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "278": {
+    "name": "Plancha para escaladores con apoyo",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "279": {
+    "name": "Plancha para escaladores abierta con apoyo",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "280": {
+    "name": "Plancha para escaladores cruzada con apoyo",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "281": {
+    "name": "Plancha para escaladores",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "282": {
+    "name": "Plancha para escaladores abierta",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "283": {
+    "name": "Plancha para escaladores cruzada",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "284": {
+    "name": "Elevación de pelvis en supino",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "285": {
+    "name": "Elevación de piernas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "286": {
+    "name": "Elevación de piernas isométrica",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "287": {
+    "name": "Tijeras en vertical",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "288": {
+    "name": "Tijeras en horizontal",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "289": {
+    "name": "Dead bug",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "290": {
+    "name": "Plancha invertida",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "boy"
+  },
+  "291": {
+    "name": "Plancha inversa unipodal",
+    "hasReps": "FALSE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "292": {
+    "name": "Superman",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "293": {
+    "name": "Extensión lumbar isométrico",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "294": {
+    "name": "Giro de superman",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "295": {
+    "name": "Extensión lumbar unilateral",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "296": {
+    "name": "Elevación alterna de brazo y pierna",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "297": {
+    "name": "Bird dog cruzado",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "298": {
+    "name": "Equilibrio sobre glúteos",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "core",
+    "material": "",
+    "model": "girl"
+  },
+  "299": {
+    "name": "Elevación de piernas asistido",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "300": {
+    "name": "Contracción abdominal tocando palma",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "301": {
+    "name": "Gusano tocando palmas frontales",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "302": {
+    "name": "Contracción abdominal alterna",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "303": {
+    "name": "El sacacorchos en pareja",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "304": {
+    "name": "Roll up en parejas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "305": {
+    "name": "Estabilidad de CORE más toque de palmas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "306": {
+    "name": "Rolling back",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "307": {
+    "name": "Escalador y contracción abdominal",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "308": {
+    "name": "Plancha baja con choque de puños",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "309": {
+    "name": "Flexión de cadera con toque de puntas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "310": {
+    "name": "Flexión de cadera balística 90º",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "311": {
+    "name": "¡Levántate compañero!",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "312": {
+    "name": "Plancha con toque de hombros y sentadilla isométrica",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "313": {
+    "name": "The hundred - 100 en pareja",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "314": {
+    "name": "Abducción de tronco y desplazamiento en plancha",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "315": {
+    "name": "Sentadilla isométrica más abdominales con elevación de cadera",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "316": {
+    "name": "Gusano en parejas tocando palmas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "317": {
+    "name": "Plancha frontal más abdominal con flexión de rodillas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "318": {
+    "name": "Cangrejo tocando planta del pie",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "319": {
+    "name": "Gusano diagonal",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "320": {
+    "name": "Sentadilla más abdominal con flexión rodillas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "321": {
+    "name": "Gusano en parejas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "322": {
+    "name": "Plancha frontal tocando el hombro del compañero",
+    "hasReps": "TRUE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "323": {
+    "name": "Barco abducción-aducción en parejas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "324": {
+    "name": "Plancha para escaladores frontal tocando palma",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "325": {
+    "name": "Plancha para escaladores lateral tocando palma",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "326": {
+    "name": "Plancha para escaladores cruzados tocando palma",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "327": {
+    "name": "Plancha cuadrupedia",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "328": {
+    "name": "Abdominales con golpes de boxeo",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "329": {
+    "name": "Escaladores frontales en pareja",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "330": {
+    "name": "Escaladores laterales en pareja",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "331": {
+    "name": "Escaladores cruzados en pareja",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "332": {
+    "name": "Plancha con brazos estirados más apertura de piernas",
+    "hasReps": "TRUE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "333": {
+    "name": "Trote estático",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "334": {
+    "name": "Talones al glúteo",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "335": {
+    "name": "Skipping sumo alterno",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "336": {
+    "name": "Skipping sumo sincronizado",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "337": {
+    "name": "Desplazamiento cruzado",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "338": {
+    "name": "Rodilla a las palmas",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "339": {
+    "name": "Rodillas a las palmas cruzado",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "340": {
+    "name": "Titiritero",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "341": {
+    "name": "Titiritero cruzado",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "boy"
+  },
+  "342": {
+    "name": "El molino",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "boy"
+  },
+  "343": {
+    "name": "Skipping",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "boy"
+  },
+  "344": {
+    "name": "Salto a la comba",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "boy"
+  },
+  "345": {
+    "name": "Salto en tijera cruzado",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "boy"
+  },
+  "346": {
+    "name": "Sombra de boxeo",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "boy"
+  },
+  "347": {
+    "name": "Golpe sobre la cabeza",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "boy"
+  },
+  "348": {
+    "name": "Golpes laterales con sentadilla",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "boy"
+  },
+  "349": {
+    "name": "Golpes a la pera",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "boy"
+  },
+  "350": {
+    "name": "Sentadilla isométrica y golpe alternado",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "boy"
+  },
+  "351": {
+    "name": "Salto de tijera",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "352": {
+    "name": "Salto de foca",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "353": {
+    "name": "Salto del depredador",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "354": {
+    "name": "Salto de tijera con palmada",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "355": {
+    "name": "Salto de tijera con flexión de hombros",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "356": {
+    "name": "Salto vertical continuo",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "357": {
+    "name": "Salto vertical continuo unilateral",
+    "hasReps": "FALSE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "358": {
+    "name": "Salto rodilla al pecho",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "359": {
+    "name": "Salto delantero-trasero",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "360": {
+    "name": "Salto lateral",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "361": {
+    "name": "Salto de skater",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "boy"
+  },
+  "362": {
+    "name": "Salto Batuka",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "boy"
+  },
+  "363": {
+    "name": "El paso del corredor",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "boy"
+  },
+  "364": {
+    "name": "El salto del corredor",
+    "hasReps": "FALSE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "boy"
+  },
+  "365": {
+    "name": "Skipping talones dentro",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "boy"
+  },
+  "366": {
+    "name": "Patada frontal",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "boy"
+  },
+  "367": {
+    "name": "Salto del portero",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "boy"
+  },
+  "368": {
+    "name": "Mix-skipping",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "boy"
+  },
+  "369": {
+    "name": "Tocar y elevar",
+    "hasReps": "FALSE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "boy"
+  },
+  "370": {
+    "name": "Salto de sentadilla sumo",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "boy"
+  },
+  "371": {
+    "name": "Corte rotacional alto",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "372": {
+    "name": "Corte rotacional bajo",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "373": {
+    "name": "Corte diagonal",
+    "hasReps": "FALSE",
+    "changeSide": "TRUE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "374": {
+    "name": "Cancán",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "375": {
+    "name": "Salto horizontal y saltitos hacia atrás",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "376": {
+    "name": "Bicicleta tumbado",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "377": {
+    "name": "Salto en tándem",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "aerobic",
+    "material": "",
+    "model": "girl"
+  },
+  "378": {
+    "name": "Media sentadilla y cierre de piernas",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "379": {
+    "name": "Trote en pareja",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "380": {
+    "name": "Skipping en pareja",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "381": {
+    "name": "Paso del corredor en pareja",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "382": {
+    "name": "Salto de tijera en pareja",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "383": {
+    "name": "Salto a la comba en pareja",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "384": {
+    "name": "Salto Tekken",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "385": {
+    "name": "Talones a glúteos pareja",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "386": {
+    "name": "Patada frontal en pareja",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "387": {
+    "name": "Patada frontal y sentadilla",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "388": {
+    "name": "Sentadilla en parada",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "389": {
+    "name": "Salto de foca en pareja",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "390": {
+    "name": "Baile rodillas y talones",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "391": {
+    "name": "Baile rodilla arriba con cruce de piernas",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "392": {
+    "name": "Sentadilla y desplazamiento lateral",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "393": {
+    "name": "Toque y desplazamiento lateral",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "394": {
+    "name": "Salto frontal y giro lateral con palmada",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "395": {
+    "name": "Cancán en pareja",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "396": {
+    "name": "Choque mano y tobillo cruzado",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "397": {
+    "name": "Salto continuo pareja",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "398": {
+    "name": "Sentadilla isométrica y paso diagonal",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "399": {
+    "name": "Salto unilateral continuo pareja",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  },
+  "400": {
+    "name": "Salto delantero-trasero en pareja",
+    "hasReps": "FALSE",
+    "changeSide": "FALSE",
+    "rotation": -1,
+    "icon": "pair",
+    "material": "",
+    "model": "both"
+  }
+}

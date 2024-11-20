@@ -3,6 +3,8 @@ import writeXlsxFile from "write-excel-file";
 import { getExerciseSessions, getUserData, getUserDevices, getUserEmail } from "./FirebaseManager";
 import { FitnessLevel, Category, CategoryAerobic, Arrow } from "../DiactiveTypes";
 
+import exercisesJson from "./exercises.json";
+
 const userSheetName = "Datos de usuario";
 const sessionsSheetName = "Historial de sesiones";
 
@@ -58,7 +60,7 @@ const determineRestTimes = (isAerobic, category, fitnessLevel) => {
 const appendExerciseNames = (exercises) => {
   return exercises.map((exerciseNumberString) => {
     const exerciseNumber = parseInt(exerciseNumberString);
-    const exerciseName = exercisesCsv[exerciseNumber - 1].name;
+    const exerciseName = exercisesJson[exerciseNumber].name;
     return `${exerciseNumberString}: ${exerciseName}`;
   });
 };
@@ -203,9 +205,7 @@ const getSessionRow = (exerciseSession, sessionNumber) => {
     ? CategoryAerobic[exerciseSession.category]
     : Category[exerciseSession.category];
 
-  // TODO Change this later
-  // const exercises = appendExerciseNames(exerciseSession.exercises);
-  const exercises = exerciseSession.exercises;
+  const exercises = appendExerciseNames(exerciseSession.exercises);
   const arrowPreChar = Arrow[exerciseSession.glucoseArrowPre];
   const arrowPostChar = Arrow[exerciseSession.glucoseArrowPost];
   const heartRateAvgCell = getHeartRateCell(exerciseSession.heartRateAvg);
@@ -243,17 +243,3 @@ const getSessionRow = (exerciseSession, sessionNumber) => {
     { value: sessionNumber, type: Number },
   ];
 };
-
-/*
-const readAndParseCSV = async (filename) => {
-  try {
-    const path = `data/${filename}.csv`;
-    const csvData = await readFileAsync(path, "utf8");
-    const csvResults = await csvParseAsync(csvData, {columns: true});
-    return csvResults;
-  }
-  catch (err) {
-    console.error("Error reading or parsing the CSV file:", err);
-  }
-};
-*/
