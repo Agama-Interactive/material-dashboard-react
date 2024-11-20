@@ -20,6 +20,8 @@ import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 import MDAvatar from "components/MDAvatar";
 
+import { exportExcelFile } from "../../../managers/ExcelManager";
+
 import profilePicPlaceholder from "assets/images/profilePicPlaceholder.png";
 
 const FitnessLevel = {
@@ -29,8 +31,8 @@ const FitnessLevel = {
 };
 
 export default function data(patients) {
-  const onDownloadClick = () => {
-    alert("On download click!");
+  const onDownloadClick = async (patient) => {
+    await exportExcelFile(patient.id, patient.name);
   };
 
   const Patient = ({ id, name, profilePicture }) => (
@@ -81,7 +83,7 @@ export default function data(patients) {
         ),
         download: (
           <MDTypography
-            onClick={onDownloadClick}
+            onClick={() => onDownloadClick(patient)}
             component="a"
             href="#"
             variant="caption"

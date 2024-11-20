@@ -12,23 +12,18 @@ import {
   setDoc,
 } from "firebase/firestore";
 
+import firebaseConfig from "../firebaseConfig.json";
+
 const databaseId = "(default)";
-const firebaseConfig = {
-  apiKey: "AIzaSyDz8rQC8HkRSZWZpfd3ORLT9FJSF-fRisU",
-  authDomain: "diactive-dev.firebaseapp.com",
-  projectId: "diactive-dev",
-  storageBucket: "diactive-dev.appspot.com",
-  messagingSenderId: "884426083339",
-  appId: "1:884426083339:web:9ba65eb12b90a32650cb0e",
-  measurementId: "G-5JTDRYT9YH",
-};
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const firestore = getFirestore(app, databaseId);
 
 export const getAllUsers = async () => {
-  await signInWithEmailAndPassword(auth, "jay@agama.io", "password");
+  if (!auth.currentUser) {
+    await signInWithEmailAndPassword(auth, "jay@agama.io", "password");
+  }
 
   const q = query(collection(firestore, "users"), orderBy("name"));
   const querySnapshot = await getDocs(q);

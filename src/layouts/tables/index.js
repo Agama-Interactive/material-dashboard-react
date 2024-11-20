@@ -27,7 +27,7 @@ import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
 import DataTable from "examples/Tables/DataTable";
 
-import { getAllUsers } from "../../firebase/FirebaseManager";
+import { getAllUsers } from "../../managers/FirebaseManager";
 
 // Data
 import patientsTableData from "layouts/tables/data/patientsTableData";
