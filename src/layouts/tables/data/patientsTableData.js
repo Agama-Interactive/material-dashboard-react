@@ -20,15 +20,10 @@ import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 import MDAvatar from "components/MDAvatar";
 
+import { FitnessLevel } from "../../../DiactiveTypes";
 import { exportExcelFile } from "../../../managers/ExcelManager";
 
 import profilePicPlaceholder from "assets/images/profilePicPlaceholder.png";
-
-const FitnessLevel = {
-  0: "Bajo",
-  1: "Medio",
-  2: "Alto",
-};
 
 export default function data(patients) {
   const onDownloadClick = async (patient) => {
