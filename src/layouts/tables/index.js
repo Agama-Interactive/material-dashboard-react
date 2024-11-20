@@ -27,19 +27,23 @@ import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
 import DataTable from "examples/Tables/DataTable";
 
+import { getAllUsers } from "../../firebase/FirebaseManager";
+
 // Data
 import patientsTableData from "layouts/tables/data/patientsTableData";
-
-const patients = [
-  { id: "1", name: "John" },
-  { id: "2", name: "Mary" },
-  { id: "3", name: "Alice" },
-  { id: "4", name: "Kay" },
-  { id: "5", name: "Bob" },
-];
+import { useEffect, useState } from "react";
 
 function Tables() {
-  const { columns, rows } = patientsTableData(patients);
+  const [users, setUsers] = useState([]);
+  useEffect(() => {
+    const getUsers = async () => {
+      const users = await getAllUsers();
+      setUsers(users);
+    };
+    getUsers();
+  }, []);
+
+  const { columns, rows } = patientsTableData(users);
 
   return (
     <DashboardLayout>
