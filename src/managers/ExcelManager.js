@@ -10,16 +10,15 @@ import exercisesJson from "./exercises.json";
 const userSheetName = "Datos de usuario";
 const sessionsSheetName = "Historial de sesiones";
 
-export const exportExcelFiles = async (users) => {
+export const exportExcelFiles = async (users, onProgress) => {
   const zip = new JSZip();
-  let counter = 1;
+  let count = 0;
   for (const user of users) {
+    onProgress(count, users.length);
     const blob = await exportExcelFile(user.id, true);
     const fileName = `${user.name}.xlsx`;
     zip.file(fileName, blob);
-    // TODO Remove counter and a counter in UI
-    console.log(counter);
-    counter++;
+    count++;
   }
   const zipBlob = await zip.generateAsync({ type: "blob" });
   saveAs(zipBlob, "Datos_Usuarios_Diactive.zip");

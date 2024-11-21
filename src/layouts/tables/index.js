@@ -20,6 +20,7 @@ import Card from "@mui/material/Card";
 // Material Dashboard 2 React components
 import MDBox from "components/MDBox";
 import MDButton from "components/MDButton";
+import MDTypography from "components/MDTypography";
 
 // Material Dashboard 2 React example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
@@ -39,6 +40,8 @@ import patientsTableData from "layouts/tables/data/patientsTableData";
 function Tables() {
   const navigate = useNavigate();
   const [users, setUsers] = useState([]);
+  const [downloadingAll, setDownloadingAll] = useState(false);
+  const [downloadProgress, setDownloadProgress] = useState("");
 
   useEffect(() => {
     const getUsers = async () => {
@@ -52,8 +55,15 @@ function Tables() {
     getUsers();
   }, []);
 
-  const onDownloadAllClick = () => {
-    exportExcelFiles(users);
+  const onDownloadAllClick = async () => {
+    setDownloadingAll(true);
+    await exportExcelFiles(users, onDownloadAllProgress);
+    setDownloadingAll(false);
+    setDownloadProgress("");
+  };
+
+  const onDownloadAllProgress = (count, total) => {
+    setDownloadProgress(`. ${count}/${total}`);
   };
 
   const onSignOutClick = () => {
@@ -66,7 +76,12 @@ function Tables() {
   return (
     <DashboardLayout>
       {/* <DashboardNavbar /> */}
-      <MDButton onClick={onDownloadAllClick}>Descargar Todos los Excel</MDButton>
+      <MDButton onClick={onDownloadAllClick} disabled={downloadingAll}>
+        Descargar Todos los Excel
+      </MDButton>
+      <MDTypography variant="caption" color="text" fontWeight="medium">
+        {downloadProgress}
+      </MDTypography>
       <MDBox pt={6} pb={3}>
         <Grid container spacing={6}>
           <Grid item xs={12}>
