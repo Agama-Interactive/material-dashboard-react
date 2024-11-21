@@ -27,12 +27,14 @@ import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
 import DataTable from "examples/Tables/DataTable";
 
-import { getAllUsers, isAuthenticated, signOutUser } from "../../managers/FirebaseManager";
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+
+import { getAllUsers, signOutUser } from "../../managers/FirebaseManager";
+import { exportExcelFiles } from "../../managers/ExcelManager";
 
 // Data
 import patientsTableData from "layouts/tables/data/patientsTableData";
-import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 
 function Tables() {
   const navigate = useNavigate();
@@ -50,16 +52,21 @@ function Tables() {
     getUsers();
   }, []);
 
+  const onDownloadAllClick = () => {
+    exportExcelFiles(users);
+  };
+
   const onSignOutClick = () => {
     signOutUser();
     navigate("/authentication/sign-in");
   };
 
-  if (!isAuthenticated()) return null;
+  if (users.length === 0) return null;
 
   return (
     <DashboardLayout>
       {/* <DashboardNavbar /> */}
+      <MDButton onClick={onDownloadAllClick}>Descargar Todos los Excel</MDButton>
       <MDBox pt={6} pb={3}>
         <Grid container spacing={6}>
           <Grid item xs={12}>

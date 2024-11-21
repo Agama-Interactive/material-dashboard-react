@@ -27,7 +27,7 @@ import profilePicPlaceholder from "assets/images/profilePicPlaceholder.png";
 
 export default function data(patients) {
   const onDownloadClick = async (patient) => {
-    await exportExcelFile(patient.id, patient.name);
+    await exportExcelFile(patient.id);
   };
 
   const Patient = ({ id, name, profilePicture }) => (

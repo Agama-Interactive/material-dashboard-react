@@ -1,4 +1,6 @@
 import writeXlsxFile from "write-excel-file";
+import JSZip from "jszip";
+import { saveAs } from "file-saver";
 
 import { getExerciseSessions, getUserData, getUserDevices, getUserEmail } from "./FirebaseManager";
 import { FitnessLevel, Category, CategoryAerobic, Arrow } from "../DiactiveTypes";
@@ -8,24 +10,41 @@ import exercisesJson from "./exercises.json";
 const userSheetName = "Datos de usuario";
 const sessionsSheetName = "Historial de sesiones";
 
-export const exportExcelFile = async (userId, userName) => {
+export const exportExcelFiles = async (users) => {
+  const zip = new JSZip();
+  let counter = 1;
+  for (const user of users) {
+    const blob = await exportExcelFile(user.id, true);
+    const fileName = `${user.name}.xlsx`;
+    zip.file(fileName, blob);
+    // TODO Remove counter and a counter in UI
+    console.log(counter);
+    counter++;
+  }
+  const zipBlob = await zip.generateAsync({ type: "blob" });
+  saveAs(zipBlob, "Datos_Usuarios_Diactive.zip");
+};
+
+export const exportExcelFile = async (userId, returnBlob) => {
   const userData = await getUserData(userId);
   userData.email = await getUserEmail(userId);
   const userDevices = await getUserDevices(userId);
   const exerciseSessions = await getExerciseSessions(userId);
-  await generateExcelFile(userData, userDevices, exerciseSessions);
+  const result = await generateExcelFile(userData, userDevices, exerciseSessions, returnBlob);
+  return result;
 };
 
-const generateExcelFile = async (userData, userDevices, exerciseSessions) => {
+const generateExcelFile = async (userData, userDevices, exerciseSessions, returnBlob) => {
   const { userTable, userColumns } = generateUserSheet(userData, userDevices);
   const { sessionsTable, sessionsColumns } = generateSessionsSheet(exerciseSessions);
 
   const fileName = `${userData.name}.xlsx`;
-  await writeXlsxFile([userTable, sessionsTable], {
+  const result = await writeXlsxFile([userTable, sessionsTable], {
     columns: [userColumns, sessionsColumns],
     sheets: [userSheetName, sessionsSheetName],
-    fileName: fileName,
+    fileName: returnBlob ? null : fileName,
   });
+  return result;
 };
 
 const getHeartRateCell = (heartRate) => {
