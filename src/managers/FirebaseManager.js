@@ -1,5 +1,10 @@
 import { initializeApp } from "firebase/app";
-import { getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth";
+import {
+  getAuth,
+  signInWithEmailAndPassword,
+  signOut,
+  sendPasswordResetEmail,
+} from "firebase/auth";
 import {
   getFirestore,
   collection,
@@ -35,6 +40,15 @@ export const signInUser = async (email, password) => {
 
 export const signOutUser = () => {
   signOut(auth);
+};
+
+export const sendPwdResetEmail = async (email) => {
+  try {
+    await sendPasswordResetEmail(auth, email);
+  } catch (error) {
+    return false;
+  }
+  return true;
 };
 
 export const getUserData = async (userId) => {

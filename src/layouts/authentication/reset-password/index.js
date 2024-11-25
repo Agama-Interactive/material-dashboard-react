@@ -13,7 +13,7 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 // react-router-dom components
 import { useNavigate, Link } from "react-router-dom";
@@ -30,34 +30,22 @@ import MDButton from "components/MDButton";
 // Authentication layout components
 import BasicLayout from "layouts/authentication/components/BasicLayout";
 
-import { isAuthenticated, signInUser } from "../../../managers/FirebaseManager";
+import { sendPwdResetEmail } from "../../../managers/FirebaseManager";
 
 function Basic() {
-  const navigate = useNavigate();
-
-  // useEffect(() => {
-  //   if (isAuthenticated()) {
-  //     navigate("/tables");
-  //   }
-  // }, []);
-
   const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
 
   const onEmailChange = (event) => {
     setEmail(event.target.value);
   };
 
-  const onPasswordChange = (event) => {
-    setPassword(event.target.value);
-  };
-
-  const onSignInClick = async () => {
-    const signedIn = await signInUser(email, password);
-    if (signedIn) {
-      navigate("/tables");
+  const onSendClick = async () => {
+    console.log(email);
+    const sentEmail = await sendPwdResetEmail(email);
+    if (sentEmail) {
+      alert("Done");
     } else {
-      alert("Error de inicio de sesión\nCorreo y/o contraseña incorrectos");
+      alert("Introduce un correo electrónico válido");
     }
   };
 
@@ -76,7 +64,7 @@ function Basic() {
           textAlign="center"
         >
           <MDTypography variant="h4" fontWeight="medium" color="white" mt={1}>
-            Iniciar Sesión
+            Restablecer Contraseña
           </MDTypography>
         </MDBox>
         <MDBox pt={4} pb={3} px={3}>
@@ -84,30 +72,27 @@ function Basic() {
             <MDBox mb={2}>
               <MDInput type="email" label="Correo electrónico" fullWidth onChange={onEmailChange} />
             </MDBox>
-            <MDBox mb={2}>
-              <MDInput type="password" label="Contraseña" fullWidth onChange={onPasswordChange} />
-            </MDBox>
             <MDBox mt={4} mb={1}>
               <MDButton
                 variant="gradient"
                 color="info"
                 fullWidth
-                onClick={onSignInClick}
-                disabled={!email || !password}
+                onClick={onSendClick}
+                disabled={!email}
               >
-                Iniciar Sesión
+                Enviar
               </MDButton>
             </MDBox>
             <MDBox mt={3} mb={1} textAlign="center">
               <MDTypography
                 component={Link}
-                to="/authentication/reset-password"
+                to="/authentication/sign-in"
                 variant="button"
                 color="info"
                 fontWeight="medium"
                 textGradient
               >
-                Restablecer contraseña
+                Iniciar sesión
               </MDTypography>
             </MDBox>
           </MDBox>
